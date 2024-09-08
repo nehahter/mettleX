@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>MettleX</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- Owl Carousel css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- Owl Carousel css-->
+
+
+  <!-- jquery css-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <!-- jquery css-->
+
+</head>
+
+<body>
+    <section class="home">
+      <div class="headerbg">
+        <header>
+          <div class="container">
+            <div class="navbar flex1">
+              <div class="logo">
+                <img src="img/logo.png" alt="">
+              </div>
+  
+              <nav>
+                <ul id="menuitem">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="features.html">MVP</a></li>
+                  <li><a href="capitals.html">Venture Capitals</a></li>
+                  <li><a href="hire.html">Hire</a></li>
+                  <li><a href="research.html">Research</a></li>
+                  <li><a href="research.html"><i class="fas fa-brain"></i>Mettlo</a></li>
+                </ul>
+              </nav>
+              <span class="fa fa-bars" onclick="menutoggle()"></span>
+  
+              <div class="subscribe flex">
+                <i class="fas fa-search"></i>
+                <i id="palybtn" class="fas fa-user"></i>
+                <button>Sign in</button>
+              </div>
+            </div>
+          </div>
+        </header>
+  
+        <div class="home_content mtop">
+          <div class="container">
+            <div class="left">
+              <h1>Ignite Your Innovation</h1>
+              <h2><i>Transform Ideas into Impact</i></h2>
+  
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="button flex">
+                <button class="btn">Guidebook</button>
+                <p><b><u><a href="https://www.youtube.com/watch?v=9bZkp7q19f0" style="color: #0dd31d;">WATCH MANUAL</a></u></b></p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <script>
+      var menuitem = document.getElementById("menuitem");
+      menuitem.style.maxHeight = "0px";
+  
+      function menutoggle() {
+        if (menuitem.style.maxHeight == '0px') {
+          menuitem.style.maxHeight = "200px";
+        } else {
+          menuitem.style.maxHeight = "0px";
+        }
+      }
+  
+      window.addEventListener("scroll", function() {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 50);
+      });
+    </script>
+
+<section class="popular mtop">
+    <div class="container">
+      <div class="heading flex1">
+        <h2>Venture Capitals</h2>
+        <button>MORE INFO</button>
+      </div>
+  
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/2.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>Fintech Innovators</h3>
+              <div class="time flex">
+                <span>Investment: $200M</span>
+                <i class="fas fa-circle"></i>
+                <a>Fintech</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/3.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>EdTech Revolution</h3>
+              <div class="time flex">
+                <span>Investment: $150M</span>
+                <i class="fas fa-circle"></i>
+                <a>EdTech</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/4.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>HealthTech Giants</h3>
+              <div class="time flex">
+                <span>Investment: $180M</span>
+                <i class="fas fa-circle"></i>
+                <a>Health</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/1.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>GreenTech Pioneers</h3>
+              <div class="time flex">
+                <span>Investment: $220M</span>
+                <i class="fas fa-circle"></i>
+                <a>Green</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/5.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>AI & Machine Learning</h3>
+              <div class="time flex">
+                <span>Investment: $250M</span>
+                <i class="fas fa-circle"></i>
+                <a>AI & ML</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/6.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>Blockchain Innovators</h3>
+              <div class="time flex">
+                <span>Investment: $3B</span>
+                <i class="fas fa-circle"></i>
+                <a>Blockchain</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/fin.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>Smart Cities & IoT</h3>
+              <div class="time flex">
+                <span>Investment: $2B</span>
+                <i class="fas fa-circle"></i>
+                <a>Smart City</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  
+
+<!-- Owl Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<!-- Owl Carousel -->
+
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: true,
+    dots: false,
+    responsive: {
+      411: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+      1000: {
+        items: 4
+      }
+    }
+  })
+</script>
+
+<section class="new_realase top">
+  <div class="container">
+    <div class="owl-carousel owl-carousel2 owl-theme">
+      <!-- Feature 1: Enhance Your MVP -->
+      <div class="items">
+        <div class="left">
+          <div class="img">
+            <img src="img/mvpf.jpeg" alt="">
+          </div>
+          <div class="heading">
+            <h2> <span></span> ENHANCE YOUR MVP</h2>
+            <h1>Transform Your Product Vision</h1>
+          </div>
+          <p>Optimizing your Minimum Viable Product (MVP) is crucial for market success. We guide you in refining your MVP to meet user needs and ensure better traction.</p>
+          <div class="button flex">
+            <button class="btn" onclick="window.location.href='mvp.html'">Know More</button>
+          </div>
+        </div>
+      </div>
+      <!-- Feature 2: Intellectual Property Rights -->
+      <div class="items">
+        <div class="left">
+          <div class="img">
+            <img src="img/ipr2.jpeg" alt="">
+          </div>
+          <div class="heading">
+            <h2> <span></span> INTELLECTUAL PROPERTY RIGHTS</h2>
+            <h1>Protect Your Innovations</h1>
+          </div>
+          <p>Securing Intellectual Property Rights (IPR) is essential for protecting your ideas and innovations. Learn about patents, trademarks, and copyrights to safeguard your work.</p>
+          <div class="button flex">
+            <button class="btn" onclick="window.location.href='ipr.html'">Know More</button>
+          </div>
+        </div>
+      </div>
+      <!-- Feature 3: Get Venture Capitals -->
+      <div class="items">
+        <div class="left">
+          <div class="img">
+            <img src="img/vc.jpeg" alt="">
+          </div>
+          <div class="heading">
+            <h2> <span></span> GET VENTURE CAPITALS</h2>
+            <h1>Secure Funding for Growth</h1>
+          </div>
+          <p>Attracting venture capital is key to scaling your startup. Discover strategies to pitch effectively and secure the funding needed to expand your business.</p>
+          <div class="button flex">
+            <button class="btn" onclick="window.location.href='vc.html'">Know More</button>
+          </div>
+        </div>
+      </div>
+      <!-- Feature 4: Marketing -->
+      <div class="items">
+        <div class="left">
+          <div class="img">
+            <img src="img/mark1.jpeg" alt="">
+          </div>
+          <div class="heading">
+            <h2> <span></span> MARKETING</h2>
+            <h1>Promote Your Brand</h1>
+          </div>
+          <p>Effective marketing is essential for reaching your target audience. Learn about branding, digital marketing strategies, and creating compelling campaigns.</p>
+          <div class="button flex">
+            <button class="btn" onclick="window.location.href='mark.html'">Know More</button>
+          </div>
+        </div>
+      </div>
+      <!-- Feature 5: Hiring -->
+      <div class="items">
+        <div class="left">
+          <div class="img">
+            <img src="img/hiri.jpeg" alt="">
+          </div>
+          <div class="heading">
+            <h2> <span></span> HIRING</h2>
+            <h1>Build Your Dream Team</h1>
+          </div>
+          <p>Hiring the right talent is crucial for your startup's success. Discover best practices for recruiting, onboarding, and retaining top talent.</p>
+          <div class="button flex">
+            <button class="btn" onclick="window.location.href='hire.html'">Know More</button>
+          </div>
+        </div>
+      </div>
+      <!-- Feature 6: Feedback -->
+      <div class="items">
+        <div class="left">
+          <div class="img">
+            <img src="img/feed1.jpeg" alt="">
+          </div>
+          <div class="heading">
+            <h2> <span></span> FEEDBACK</h2>
+            <h1>Improve Through Insights</h1>
+          </div>
+          <p>Gathering and analyzing feedback helps you improve your product. Learn how to implement feedback loops and make data-driven decisions.</p>
+          <div class="button flex">
+            <button class="btn" onclick="window.location.href='feedback.html'">Know More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  $('.owl-carousel2').owlCarousel({
+    loop: true,
+    margin: 20,
+    dots: true,
+    items: 1
+  })
+</script>
+
+
+
+<section class="popular mtop">
+    <div class="container">
+        <div class="heading flex1">
+            <h2>Research</h2>
+            <button>MORE INFO</button>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="img/fin.jpg" alt="">
+                        <div class="icon">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                            <i class="fas fa-save"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <i id="playbtn" class="fas fa-play"></i>
+                    </div>
+                    <div class="text">
+                        <h3>AI & Machine Learning</h3>
+                        <div class="time flex">
+                            <span>Field: AI & ML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="img/6.jpg" alt="">
+                        <div class="icon">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                            <i class="fas fa-save"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <i id="playbtn" class="fas fa-play"></i>
+                    </div>
+                    <div class="text">
+                        <h3>GreenTech Research</h3>
+                        <div class="time flex">
+                            <span>Field: Green Technology</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="img/4.jpg" alt="">
+                        <div class="icon">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                            <i class="fas fa-save"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <i id="playbtn" class="fas fa-play"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Healthcare Advances</h3>
+                        <div class="time flex">
+                            <span>Field: Healthcare</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="img/5.jpg" alt="">
+                        <div class="icon">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                            <i class="fas fa-save"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <i id="playbtn" class="fas fa-play"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Smart Cities</h3>
+                        <div class="time flex">
+                            <span>Field: IoT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="img/2.jpg" alt="">
+                        <div class="icon">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                            <i class="fas fa-save"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <i id="playbtn" class="fas fa-play"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Blockchain Research</h3>
+                        <div class="time flex">
+                            <span>Field: Blockchain</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="popular mtop">
+    <div class="container">
+        <div class="heading flex1">
+            <h2>Innovation</h2>
+            <button>MORE INFO</button>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="img/ag.jpg" alt="">
+                        <div class="icon">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                            <i class="fas fa-save"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <i id="playbtn" class="fas fa-play"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Agriculture Tech</h3>
+                        <div class="time flex">
+                            <i class="fas fa-circle"></i>
+                            <a>Agriculture Innovation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="img/he.jpg" alt="">
+                        <div class="icon">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                            <i class="fas fa-save"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <i id="playbtn" class="fas fa-play"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Healthcare Innovations</h3>
+                        <div class="time flex">
+                            <i class="fas fa-circle"></i>
+                            <a>Healthcare</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="img/3.jpg" alt="">
+                        <div class="icon">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                            <i class="fas fa-save"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <i id="playbtn" class="fas fa-play"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Education Tech</h3>
+                        <div class="time flex">
+                            <i class="fas fa-circle"></i>
+                            <a>EdTech</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="img/2.jpg" alt="">
+                        <div class="icon">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                            <i class="fas fa-save"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <i id="playbtn" class="fas fa-play"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Manufacturing Tech</h3>
+                        <div class="time flex">
+                            <i class="fas fa-circle"></i>
+                            <a>Manufacturing</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="img/1.jpg" alt="">
+                        <div class="icon">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                            <i class="fas fa-save"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <i id="playbtn" class="fas fa-play"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Transport & Logistics</h3>
+                        <div class="time flex">
+                            <i class="fas fa-circle"></i>
+                            <a>Transport</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="popular mtop">
+    <div class="container">
+      <div class="heading flex1">
+        <h2>Guidance</h2>
+        <button>MORE INFO</button>
+      </div>
+  
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/2.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>Mentorship</h3>
+              <div class="time flex">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/6.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>Patent</h3>
+              <div class="time flex">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/4.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>Trademark Facilitator</h3>
+              <div class="time flex">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/fin.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>Funding</h3>
+              <div class="time flex">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/3.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>Finance</h3>
+              <div class="time flex">
+              </div>
+            </div>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+  
+  
+<section class="popular mtop">
+    <div class="container">
+      <div class="heading flex1">
+        <h2>Venture Capitals</h2>
+        <button>MORE INFO</button>
+      </div>
+  
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/fin.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>Fintech Innovators</h3>
+              <div class="time flex">
+                <span>Investment: $200M</span>
+                <i class="fas fa-circle"></i>
+                <a>Fintech</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/6.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>EdTech Revolution</h3>
+              <div class="time flex">
+                <span>Investment: $150M</span>
+                <i class="fas fa-circle"></i>
+                <a>EdTech</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/4.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>HealthTech Giants</h3>
+              <div class="time flex">
+                <span>Investment: $180M</span>
+                <i class="fas fa-circle"></i>
+                <a>Health</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/5.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>GreenTech Pioneers</h3>
+              <div class="time flex">
+                <span>Investment: $220M</span>
+                <i class="fas fa-circle"></i>
+                <a>Green</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/1.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>AI & Machine Learning</h3>
+              <div class="time flex">
+                <span>Investment: $250M</span>
+                <i class="fas fa-circle"></i>
+                <a>AI & ML</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/3.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>Blockchain Innovators</h3>
+              <div class="time flex">
+                <span>Investment: $3B</span>
+                <i class="fas fa-circle"></i>
+                <a>Blockchain</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="img/2.jpg" alt="">
+              <div class="icon">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-save"></i>
+              </div>
+            </div>
+  
+            <div class="content">
+              <i id="palybtn" class="fas fa-play"></i>
+            </div>
+            <div class="text">
+              <h3>Smart Cities & IoT</h3>
+              <div class="time flex">
+                <span>Investment: $2B</span>
+                <i class="fas fa-circle"></i>
+                <a>Smart City</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <!-- paxi mate ko lai aata hai-->
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: true,
+      dots: false,
+      responsive: {
+        414: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
+
+
+
+  <footer>
+    <div class="container mtop">
+      <div class="box">
+        <div class="logo">
+          <img src="img/logo.png">
+        </div>
+        <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="icon">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-youtube-square"></i>
+        </div>
+      </div>
+
+
+      <div class="box ">
+        <h2>Explore</h2>
+        <div class="flex">
+          <ul>
+            <li>Company</li>
+            <li>Terms of Use</li>
+            <li>Contact us</li>
+            <li>Our Team</li>
+          </ul>
+          <ul class="ul">
+            <li>Privacy Policy</li>
+            <li>Helps Center</li>
+            <li>Guidelines</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <p class="legal">Copyright Holder All Rights Reserved by MettleX</p>
+  </footer>
+</body>
+
+</html>

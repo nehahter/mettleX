@@ -1,0 +1,153 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: rgb(41, 37, 37);
+    color: #333;
+  }
+  
+  /* Container styling */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #e6e3e3;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  header {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  header h1 {
+    color: #0dd31d;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Section styling */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    color: #0dd31d;
+    margin-bottom: 10px;
+  }
+  
+  section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    margin-bottom: 15px;
+  }
+  
+  section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  /* Feature image styling */
+  .feature-img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  /* MVP Gallery Styling */
+  .mvp-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* MVP Block Styling */
+  .mvp-block {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .mvp-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s;
+  }
+  
+  .mvp-block .mvp-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .mvp-block:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .mvp-block:hover .mvp-info {
+    opacity: 1;
+  }
+  
+  /* Additional Section Styling */
+  .how-it-works, .feedback-platform, .dashboard, .success-stories {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .how-it-works ul, .feedback-platform ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .how-it-works li, .feedback-platform li {
+    margin-bottom: 10px;
+  }
+
+  li a[href="index.html"] {
+    color: #0dd31d;
+}
