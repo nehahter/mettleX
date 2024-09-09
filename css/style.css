@@ -489,7 +489,7 @@ footer ul li {
 
 footer ul li::before {
   content: "\2022";
-  color: red;
+  color: #0dd31d;
   font-weight: bold;
   display: inline-block;
   width: 1em;
