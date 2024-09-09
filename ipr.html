@@ -3,103 +3,138 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Protect Your Innovation with Mettlex</title>
-  <link rel="stylesheet" href="css/ipr.css"> <!-- Link to your CSS file -->
+  <title>Manage Your Intellectual Property Rights</title>
+  <link rel="stylesheet" href="css/instyle.css"> <!-- Link to your CSS file -->
+  <style>
+    /* Additional CSS to manage side-by-side layout */
+    .resource-gallery {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .resource-block {
+      flex: 1;
+      margin: 10px;
+      padding: 15px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 45%;
+    }
+
+    .resource-block img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .resource-info h3 {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+
+    /* Styling the page sections */
+    .intro-section {
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    .intro-section img {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    .how-it-works, .ipr-resources, .feedback-platform {
+      padding: 20px;
+    }
+
+    .how-it-works ul {
+      list-style-type: none;
+    }
+
+    .how-it-works li {
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo">
+      </div>
       <ul>
         <li><a href="index.html">Home</a></li>
+        <li><a href="mvp.html">MVP</a></li>
+        <li><a href="ipr.html">IPR</a></li>
+        <li><a href="vc.html">VC</a></li>
+        <li><a href="mark.html">Marketing</a></li>
+        <li><a href="hire.html">Hire</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
       </ul>
     </nav>
-    <h1>Protect Your Innovation with Mettlex</h1>
   </header>
 
   <div class="container">
+    <h1>&nbsp;&nbsp;Manage Your</h1>
+    <h1>&nbsp;&nbsp;Intellectual Property Rights</h1>
     <!-- Introduction and Overview -->
     <section class="intro-section">
-      <h2>Secure Your Ideas, Designs, and Creations with Robust IPR Management</h2>
-      <p>Every innovation begins with a unique idea. At Mettlex, we understand the importance of protecting your intellectual property (IP) to ensure that your hard work, creativity, and vision are safeguarded. This page provides all the tools, resources, and support you need to navigate the complexities of IPR management.</p>
-      <img src="img/ipr.jpeg" alt="Enhance Your MVP" class="feature-img">
+      <h2>Protect and Manage Your Intellectual Property on Mettlex</h2>
+      <h3>Secure Your Innovations and Ensure Legal Protection</h3>
+      <img src="img/ipr.jpeg" alt="Manage Your IPR" class="feature-img">
+      <p>At Mettlex, we simplify the complex process of securing intellectual property, whether it's through patents, copyrights, trademarks, or trade secrets. Our platform empowers you to seamlessly manage and protect your intellectual assets, ensuring that your innovative ideas are safeguarded against unauthorized use.</p>
     </section>
 
-    <!-- Understanding Intellectual Property Rights (IPR) -->
-    <section class="ipr-overview">
-      <h2>Understanding Intellectual Property Rights (IPR)</h2>
-      <p>Intellectual Property (IP) refers to creations of the mind, such as inventions, designs, brand names, artwork, or software, that are protected by law. IPR includes patents, copyrights, trademarks, and trade secrets, which grant you exclusive rights to use, produce, or sell your innovation. Protecting your IP is crucial for preventing unauthorized use, copying, or exploitation by others.</p>
-      
-      <div class="ipr-blocks">
-        <div class="ipr-block">
-          <img src="img/ipr1.jpeg" alt="Patents">
-          <div class="ipr-info">
-            <h3>Patents</h3>
+    <!-- How It Works -->
+    <section class="how-it-works">
+      <h2>How It Works</h2>
+      <div class="innovators">
+        <h3>For Innovators and Startups:</h3>
+        <ul>
+          <li><strong>File for Patents:</strong> Submit your patent applications directly through Mettlex and track their status with real-time updates.</li>
+          <li><strong>IPR Protection:</strong> Gain comprehensive protection for your intellectual property, from the submission stage to final approval, ensuring no infringement.</li>
+          <li><strong>Legal Consultation:</strong> Consult IPR experts for advice on patents, trademarks, and copyrights. Our network of professionals helps you navigate the legal complexities of securing your rights.</li>
+          <li><strong>Secure Digital Repository:</strong> Mettlex provides a safe, encrypted space to store, manage, and organize your IPR documentation and certificates, accessible anytime and anywhere.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Resources for IPR -->
+    <section class="ipr-resources">
+      <h2>Resources for Intellectual Property Rights</h2>
+      <p>Navigate the intricacies of IPR with ease. Mettlex provides curated resources to help innovators and startups understand the various types of intellectual property protection available. Explore our resources to find guidance on filing patents, securing copyrights, and more.</p>
+
+      <!-- Resource Gallery with side-by-side images -->
+      <div class="resource-gallery">
+        <div class="resource-block">
+          <img src="img/pfg.png" alt="Patent Filing Guide">
+          <div class="resource-info">
+            <h3>Patent Filing Guide</h3>
+            <p>A comprehensive guide to patent filing. Learn the step-by-step process to file a patent application, including necessary documentation, timelines, and best practices. Discover how to avoid common pitfalls and ensure your innovation receives the protection it deserves.</p>
           </div>
         </div>
-
-        <div class="ipr-block">
-          <img src="img/ipr4.jpg" alt="Trademarks">
-          <div class="ipr-info">
-            <h3>Trademarks</h3>
-          </div>
-        </div>
-
-        <div class="ipr-block">
-          <img src="img/ipr2.jpeg" alt="Copyrights">
-          <div class="ipr-info">
-            <h3>Copyrights</h3>
-          </div>
-        </div>
-
-        <div class="ipr-block">
-          <img src="img/ipr3.jpeg" alt="Trade Secrets">
-          <div class="ipr-info">
-            <h3>Trade Secrets</h3>
+        
+        <div class="resource-block">
+          <img src="img/patent.png" alt="IPR Legal Advice">
+          <div class="resource-info">
+            <h3>IPR Legal Advice</h3>
+            <p>Access expert legal advice on intellectual property. Our experts provide tailored advice on patent law, trademark registration, and intellectual property rights enforcement.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Resources and Tools -->
-    <section class="resources-tools">
-      <h2>Resources to Navigate IPR</h2>
-      <div class="resources-blocks">
-        <div class="resource-item">
-          <img src="img/patent.png" alt="How to File a Patent">
-          <div class="resource-info">
-            <h3>How to File a Patent</h3>
-          </div>
-        </div>
-
-        <div class="resource-item">
-          <img src="img/trade.jpeg" alt="Understanding Copyrights and Trademarks">
-          <div class="resource-info">
-            <h3>Understanding Copyrights and Trademarks</h3>
-          </div>
-        </div>
-
-        <div class="resource-item">
-          <img src="img/strategy.png" alt="IP Strategy for Startups">
-          <div class="resource-info">
-            <h3>IP Strategy for Startups</h3>
-          </div>
-        </div>
-
-        <div class="resource-item">
-          <img src="img/temp.png" alt="Templates and Documents">
-          <div class="resource-info">
-            <h3>Templates and Documents</h3>
-          </div>
-        </div>
-
-        <div class="resource-item">
-          <img src="img/wprkshop.jpeg" alt="Webinars and Workshops">
-          <div class="resource-info">
-            <h3>Webinars and Workshops</h3>
-          </div>
-        </div>
-      </div>
+    <!-- Feedback Section -->
+    <section class="feedback-platform">
+      <h2>Your Feedback Matters</h2>
+      <p>We constantly strive to improve our IPR management tools based on user feedback. Share your thoughts and suggestions to help us enhance the platform for a better user experience.</p>
+      <ul>
+        <li><strong>Feedback Form:</strong> Submit your feedback about the IPR filing and protection process. Your suggestions are invaluable to us.</li>
+        <li><strong>Earn Rewards:</strong> Receive rewards for contributing constructive feedback that helps improve Mettlex's IPR services.</li>
+      </ul>
     </section>
+
   </div>
 </body>
 </html>
